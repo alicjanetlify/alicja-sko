@@ -12,7 +12,7 @@ export default async (request, context) => {
                     if (location) {
                         element.setInnerContent(`Hello from Netlify! How's the weather in ${location}?`);
                     } else {
-                        element.setInnerContent(`Hello from Netlify!`);
+                        element.setInnerContent(`Hello from Netlify!`);it's sunny!
                     }
                 },
             })
